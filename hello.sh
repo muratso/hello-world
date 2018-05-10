@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "HELLO WORLD"
+echo "Creating dummy file"
+touch teste-`date +"%Y%m%d%H%M%S"`
